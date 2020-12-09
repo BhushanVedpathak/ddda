@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Bazar;
+      src: url("../font/Bazar\ 500.ttf");
+}
+
+
+body{
+    background-color:#74B4B4 ;
+    background-size: cover;
+    background-position: center;
+    font-family: Bazar;
+    color:#74B4B4 ;
+}
+
+.menu-bar{
+    background-color:transparent;
+    text-align: center;
+    border-bottom: 0.1px groove ;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0%;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: #F6EDD8 ;
+    border-radius: 3px;
+}
+
+.none{
+    background: none;
+    border-radius: 3px;
+}
+
+.menu-bar.fa{
+    margin-right: 8px;
+}
+
+p{
+    text-align: center;
+    color:#F6EDD8;
+    font-family: Bazar;
+    font-size: 130px;
+    text-shadow: 5px 5px grey;
+    padding: 15px;
+}
+
+.img-slider{
+    width: 60%;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color:#F6EDD8 ;
+    left: 50%;
+    top: 70%;
+    background-size: 100% 100%;
+    border-top:8px solid white;
+    border-left: 8px solid white;
+    border-right:8px solid white ;
+    border-bottom: 40px solid white;
+    animation: slider 10s infinite linear;
+}
+
+    @keyframes slider {
+        0%{ background-color:#F6EDD8 ; }
+        35%{ background-color:#F6EDD8 ; }
+        75%{ background-color:#F6EDD8 ; }
+    }
+
+    .para-0{
+        position: absolute;
+        text-align: center;
+        color:#F6EDD8;
+        font-family: Bazar;
+        font-size: 25px;
+        padding: 15px;
+        left: 50%;
+        top: 110%;
+        transform: translate(-50%, -50%);
+
+    }
+    .para-1{
+        position: absolute;
+        text-align: center;
+        color:#F6EDD8;
+        font-family: Bazar;
+        font-size: 25px;
+        padding: 15px;
+        left: 50%;
+        top: 116%;
+        transform: translate(-50%, -50%);
+
+    }
